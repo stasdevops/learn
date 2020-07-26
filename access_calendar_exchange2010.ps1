@@ -1,5 +1,5 @@
 ﻿
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.E2010; #Полюкчение модуля управления Exchange
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.E2010; #Подключение модуля управления Exchange
 $us_cal = Read-Host "Введите ФИО Сотрудника, к календарю которого требуется доступ" #Вводим ФИО сотрудника, чей календарь нас интересует (pushkin_as@mail.ru)
 $us_read = $us_cal+":\Календарь" #Добавляем постфикс :\Календарь
 Write-Host $us_read #Вывод на экран ФИО сотрудника:\Календарь
