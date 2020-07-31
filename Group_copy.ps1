@@ -13,5 +13,5 @@ $getusergroups | Add-ADGroupMember -Members $us_who -verbose
 }
 
 ELSE {
-Write-Host "Отмена операции"
+Write-Host "Отмена операции!"
 }
